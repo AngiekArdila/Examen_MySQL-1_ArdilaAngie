@@ -209,5 +209,8 @@ INSERT INTO sede VALUES
 (2,'sede2',5,150000.03),
 (3,'sede3',4,34561.215);
 
-
-SELECT * FROM 
+## ejercicios##
+#1#
+SELECT * FROM evento_complejo_deportivo;
+#2#
+SELECT comisario.nombre,eventos.nombre,evento_comisario.id_evento from comisario inner join eventos on id_evento_comisario inner join evento_comisario  on 
